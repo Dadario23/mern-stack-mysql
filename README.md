@@ -11,14 +11,17 @@ For example, on Linux, you can use the following command to install Node.js usin
 `sudo apt-get install nodejs`
 
 **Install npm**
+
 `sudo apt-get install npm`
 
 **Set up the Task Management System**
 Clone the project repository from GitHub:
+
 `git clone https://github.com/Dadario23/mern-stack-mysql.git`
 
 **Install project dependencies**
 Run the following command to install the required dependencies:
+
 `\client npm install`
 `\server npm install`
 
@@ -27,7 +30,8 @@ Create a MySQL database for the task management system.
 Update the database connection configuration in the project's code to match your MySQL settings.
 You can configure the database from the db.js file located in the /server directory
 Open the db.js file in a text editor or IDE.
-Modify the values ​​as follows
+Modify the values ​​as follows:
+
 `host: "localhost",`
 ` user: "root",`
 ` password: "pass",`
@@ -36,6 +40,7 @@ Save the changes to the db.js file.
 
 **Start the development server**
 Run the following command to start the complete project including both the client and server
+
 `npm run dev`
 
 ![CRUD task management](/client/public/image.webp)
