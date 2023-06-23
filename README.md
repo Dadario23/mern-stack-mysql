@@ -1,9 +1,9 @@
-# TaskApp Mysql Express React Node 
+# TaskApp Mysql Express React Node
 
-The project is a CRUD task management system where users can create, edit, and delete tasks. 
+The project is a CRUD task management system where users can create, edit, and delete tasks.
 Tasks are stored in a MySQL database, providing a simple and efficient solution for organizing and managing tasks effectively.
 
-*It is necessary to have npm and node installed, if you do not have them follow the instructions below*
+_It is necessary to have npm and node installed, if you do not have them follow the instructions below_
 **Install Node**
 Follow the installation instructions provided for your specific operating system.
 For example, on Linux, you can use the following command to install Node.js using the package manager:
@@ -29,15 +29,13 @@ You can configure the database from the db.js file located in the /server direct
 Open the db.js file in a text editor or IDE.
 Modify the values ​​as follows
 `host: "localhost",`
-   ` user: "root",`
-   ` password: "pass",`
-   ` database: "taskdb"`
+` user: "root",`
+` password: "pass",`
+` database: "taskdb"`
 Save the changes to the db.js file.
-
 
 **Start the development server**
 Run the following command to start the complete project including both the client and server
 `npm run dev
 
-![Sistema de gestion](https://ibb.co/zQpsLpS)`
-
+![CRUD task management](/client/public/image.webp)`
