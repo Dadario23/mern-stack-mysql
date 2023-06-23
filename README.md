@@ -12,7 +12,7 @@ For example, on Linux, you can use the following command to install Node.js usin
 
 **Install npm**
 `sudo apt-get install npm`
-´
+
 **Set up the Task Management System**
 Clone the project repository from GitHub:
 `git clone https://github.com/Dadario23/mern-stack-mysql.git`
@@ -36,6 +36,6 @@ Save the changes to the db.js file.
 
 **Start the development server**
 Run the following command to start the complete project including both the client and server
-`npm run dev
+`npm run dev`
 
-![CRUD task management](/client/public/image.webp)`
+![CRUD task management](/client/public/image.webp)
